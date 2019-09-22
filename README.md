@@ -8,7 +8,11 @@ Fantastic 6 is a community-based financing platform for Canadian freelancers
 
 Https://fantasticsix.ca
 
-https://fantastic6.ca
+**Invision Prototype**
+
+https://projects.invisionapp.com/share/4EU190JYXVC#/screens
+
+
 
 **Web App**
 
