@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import Section from '../../shared/Section'
 import graphics from './graphics.png'
 import digital from './digital.png'
@@ -13,19 +14,23 @@ import "./index.scss"
 const items = [
   {
     title: "Graphics & Design",
-    img: graphics
+    img: graphics,
+    to: "/fantastic-groups/hl2l42ij42oj"
   },
   {
     title: "Content Writing",
-    img: content
+    img: content,
+    to: "/fantastic-groups/hl2l42ij42oj"
   },
   {
     title: "Digital Marketing",
-    img: digital
+    img: digital,
+    to: "/fantastic-groups/hl2l42ij42oj"
   },
   {
     title: "Tech",
-    img: tech
+    img: tech,
+    to: "/fantastic-groups/hl2l42ij42oj"
   }
 ]
 
@@ -38,8 +43,10 @@ export default () => {
           {items.map(i => {
             return (
               <div className="fg__list__item">
-                <h3>{i.title}</h3>
-                <img src={i.img} alt="Group's Image"/>
+                <Link to={i.to}>
+                  <h3>{i.title}</h3>
+                  <img src={i.img} alt="Group's Image"/>
+                </Link>
               </div>
             )
           })}

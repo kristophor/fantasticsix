@@ -1,0 +1,32 @@
+.fg_one {
+  text-align: center;
+  &__block {
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid rgb(2, 167, 240);
+    text-align: left;
+    max-width: 600px;
+    flex: 1;
+    padding: 20px;
+    margin-bottom: 20px;
+    .title {
+
+    }
+    .info {
+
+    }
+    .message {
+
+    }
+    .image {
+      width: 40%;
+      margin: 0 auto;
+      img {
+        width: 100%;
+      }
+    }
+    .stats {
+
+    }
+  }
+}

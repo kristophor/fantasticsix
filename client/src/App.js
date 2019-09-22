@@ -14,6 +14,7 @@ import Dashboard from './views/Dashboard'
 import Profile from './views/Profile'
 import LearningHub from './views/LearningHub'
 import FantasticGroups from './views/FantasticGroups'
+import FantasticGroup from './views/FantasticGroup'
 
 setDefaultBreakpoints([
   {xsmall: 0}, // all mobile devices
@@ -40,6 +41,7 @@ const App = connect(state => ({user: state.user}))(({check, user}) => {
           <AuthRoute isAuth={user.fetched && user.data && user.data.uid} exact path="/profile" component={Profile}/>
           <AuthRoute isAuth={user.fetched && user.data && user.data.uid} exact path="/learning-hub" component={LearningHub}/>
           <AuthRoute isAuth={user.fetched && user.data && user.data.uid} exact path="/fantastic-groups" component={FantasticGroups}/>
+          <AuthRoute isAuth={user.fetched && user.data && user.data.uid} exact path="/fantastic-groups/hl2l42ij42oj" component={FantasticGroup}/>
         </Router>
       </BreakpointProvider>
     </div>
