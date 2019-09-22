@@ -12,6 +12,8 @@ What inspired us was the untapped potential and the trend f the gig economy. We 
 
 Https://fantasticsix.ca
 
+https://fantastic6.ca
+
 **Invision Prototype**
 
 https://projects.invisionapp.com/share/4EU190JYXVC#/screens
