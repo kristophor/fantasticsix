@@ -8,6 +8,8 @@ import IniThree from './initial_3.png'
 import PhotoOne from './photo_1.jpg'
 import PhotoTwo from './photo_2.jpg'
 import PhotoThree from './photo_3.jpg'
+import MemberOne from './MemberOne.jpg'
+import MemberTwo from './memberTwo.png'
 import Section from '../../shared/Section'
 import "./index.scss"
 
@@ -19,9 +21,7 @@ export default () => {
       <div className="profile">
         <div className="profile__user">
           <div className="profile__user__info">
-            <div className="profile__user__info__image">
-              <img src={User} alt="User's photo"/>
-            </div>
+            <div className="profile__user__info__image" style={{ backgroundImage: `url(${Lady})` }} />
             <div className="profile__user__info__cred">
               <div className="profile__user__info__cred__item">
                 <b>Meghan Lambordi</b>
@@ -102,11 +102,11 @@ export default () => {
                 <h4>Team Members</h4>
                 <div className="profile__user__group-project__members__list">
                   <div className="person">
-                    <img src={User} alt="Member's Photo"/>
+                    <img src={MemberOne} alt="Member's Photo"/>
                     <span>Bill</span>
                   </div>
                   <div className="person">
-                    <img src={User} alt="Member's Photo"/>
+                    <img src={MemberTwo} alt="Member's Photo"/>
                     <span>Bill</span>
                   </div>
                 </div>
