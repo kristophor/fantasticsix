@@ -38,6 +38,10 @@ https://github.com/kristophor/fantasticsix/tree/master/firebasefunctions
 
 
 
+**Video**
+
+https://youtu.be/rWaf8eWkBL0
+
 **High Level Design Diagram**
 
 ![Design Diagram](https://fantasticsix.ca/fantastic_infra.png)
