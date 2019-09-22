@@ -36,7 +36,7 @@ https://github.com/kristophor/fantasticsix/tree/master/firebasefunctions
 
 **Slides**
 
-
+https://drive.google.com/file/d/1Dmrb704ezgiPA3aPE528AuaS6qTXDIuB/view?usp=sharing
 
 **Video**
 
