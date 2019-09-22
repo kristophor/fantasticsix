@@ -1,0 +1,32 @@
+.landing {
+  &__main {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    img {
+      width: 50%;
+    }
+    .link-dashboard {
+      box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+      height: 32px;
+      display: inline-block;
+      line-height: 2;
+      color: rgba(0, 0, 0, 0.65);
+      padding: 0 15px;
+      border-radius: 4px;
+      border: 1px solid #d9d9d9;
+      transition: all ease-in-out .3s;
+      &:hover {
+        color: #1890ff;
+        border: 1px solid #1890ff;
+      }
+    }
+  }
+  &__cards {
+    display: flex;
+    justify-content: space-around;
+  }
+}

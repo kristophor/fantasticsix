@@ -1,0 +1,39 @@
+.app-header {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+
+  &__links {
+    a {
+      color: #000;
+      font-size: 17px;
+      padding-bottom: 5px;
+      margin-right: 20px;
+      border-bottom: 2px solid #000;
+      transition: all ease-in-out .3s;
+
+      &:hover {
+        color: rgb(2, 167, 240);
+        border-bottom: 2px solid rgb(2, 167, 240);
+      }
+    }
+  }
+
+  .mobile-buttons {
+    margin-right: 50px;
+    img {
+      &:first-of-type {
+        margin-right: 20px;
+      }
+      cursor: pointer;
+      border-radius: 10px;
+      height: 32px;
+      transition: all ease-in-out .3s;
+      &:hover {
+        box-shadow: 0 0 4px #000;
+      }
+    }
+  }
+}

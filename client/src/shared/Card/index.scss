@@ -1,0 +1,21 @@
+.card-item {
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  &__image {
+    img {
+      height: 100px;
+      width: auto;
+    }
+  }
+  &__title {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 20px 10px;
+  }
+  &__description {
+    margin: 0;
+    flex: 1;
+  }
+}
