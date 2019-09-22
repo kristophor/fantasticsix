@@ -4,7 +4,11 @@
 
 Fantastic 6 is a community-based financing platform for Canadian freelancers
 
+**Website**
 
+Https://fantasticsix.ca
+
+https://fantastic6.ca
 
 **Web App**
 
