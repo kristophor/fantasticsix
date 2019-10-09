@@ -3,13 +3,13 @@ import 'firebase/auth';
 import "firebase/firestore"
 
 const config = {
-  apiKey: "AIzaSyC_Q4PGtwPPXaRF-AlpwLuESm8v5fci7Ak",
+  apiKey: "",
   authDomain: "fantasticsix-team.firebaseapp.com",
   databaseURL: "https://fantasticsix-team.firebaseio.com",
   projectId: "fantasticsix-team",
   storageBucket: "fantasticsix-team.appspot.com",
-  messagingSenderId: "984917873565",
-  appId: "1:984917873565:web:f8c6120373aa8916b6d574"
+  messagingSenderId: "",
+  appId: ""
 }
 
 class Firebase {
